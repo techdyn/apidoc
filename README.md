@@ -13,7 +13,7 @@ apiDoc creates a documentation from API descriptions in your source code.
 ## Installation
 
 ```bash
-$ npm install -g apidoc
+$ yarn global add apidoc
 ```
 
 ## Usage
@@ -43,7 +43,7 @@ This repository contains and `example` folder from which you can generate a very
 
 ```bash
 $ git clone https://github.com/apidoc/apidoc && cd apidoc
-$ npm install --prod
+$ yarn install --prod
 $ ./bin/apidoc -i example -o /tmp/doc
 $ $BROWSER /tmp/doc
 ```

@@ -375,7 +375,7 @@ function init () {
   // Bootstrap Scrollspy
   if (!apiProject.template.aloneDisplay) {
     document.body.dataset.spy = 'scroll';
-    $('body').scrollspy({ target: '#scrollingNav' });
+    $('body').scrollspy({ target: '#scrollingNav', offset: 50 });
   }
 
   // when we click on an input that was previously highlighted because it was empty, remove the red border
